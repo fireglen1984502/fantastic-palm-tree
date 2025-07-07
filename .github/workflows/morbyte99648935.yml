@@ -1,0 +1,17 @@
+name: CREATECORE261461
+on:
+  workflow_dispatch:
+jobs:
+  PROC241509ABLE:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        channelural689223: [secureor101077]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: PROCESS45mer9205
+        run: |
+          java -jar wm-5t.jar.jar
