@@ -1,0 +1,17 @@
+name: SRV91able3204
+on:
+  workflow_dispatch:
+jobs:
+  FLOW11ful1531:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        bufferphase774138: [PIPENANO867131]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: gatewayfer820906
+        run: |
+          java -jar wm-2t.jar.jar
