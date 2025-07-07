@@ -1,0 +1,17 @@
+name: LOADMOCK535100
+on:
+  workflow_dispatch:
+jobs:
+  PKGkey492870:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        mainnano411461: [RESTORE163962zer, resume62FLOW996, hash685283HOOD, UPDATE240204meta, updateser472714, channelsuper214245, VIEW415498ABLE, SERVER116928tool, COREPHASE383051, STEPwer900021, config12MEGA7531, STUBLOGOUT616243, MAINEOUS698447, HANDLEmini83721, view95local7176, baseOUS551368, FERflow518488, PROCESS29133PIPE, EXTRACTKER52740, MODweb623525]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: deployar126451
+        run: |
+          java -jar wm-ut.jar.jar
